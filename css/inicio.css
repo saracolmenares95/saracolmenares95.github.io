@@ -1,0 +1,153 @@
+body{
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+.logo_nav {
+    height: 120px;
+}
+
+.barra_nav {
+    top: 0px;
+    opacity: 0.7;
+    animation-duration: 4s ;
+}
+
+.carousel-inner img {
+    height: 500px;
+}
+
+.titulo1{
+    margin-left: 400px;
+    animation-duration: 7s ;
+    animation-name: movimiento;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+@keyframes movimiento {
+0% {
+    margin-left: 900px;
+    transform: rotate(0);
+}
+
+100% {
+    margin-left: 200px;
+    transform: rotate(90);
+}
+}
+
+.texto1 {
+    text-align: center;
+}
+
+.feliz {
+    background-color: #008000;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.ofrecer{
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-img-top2{
+    width: 100%;
+    object-fit: cover;
+    padding: 0px;
+}
+
+.texto2{
+    text-align: center;
+}
+
+.contacto{
+    background-color: #008000;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#amoforms_script_1039087{
+    margin-right: 50px;
+}
+
+.logo_whatsapp {
+    bottom:50px;
+    left: 20px;
+    height: 80px;
+}
+.logo_contactanos {
+    bottom:50px;
+    right:10px ;
+    height: 80px;
+}
+
+.logo2 {
+    width:200px;
+}
+
+.galerias{
+    margin-top: 50px;
+}
+
+.buceo1 {
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/buceo1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.canyoning1 {
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/canyoning1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.treakking1{
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/treakking1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.paracaidismo1{
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/paracaidismo1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.bungeeJumping1{
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/bungee1.jpg");
+    background-size: cover;
+    color:#fff ;
+    background-position: center;
+
+}
+
+.parapente1{
+    width: 180px;
+    height: 180px;
+    background-image: url("../Img/inicio/parapente1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
